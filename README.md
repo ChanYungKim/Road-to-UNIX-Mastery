@@ -34,8 +34,8 @@ __rm [-r, -rv]__
 ![](./resource/IMG_2954.jpeg)
  - chmod [g, u, o, a, +, =, -, r/w/x]
     - chmod [g, u, o, a][+/=/-][r/w/x] [file_name/directory_name]
- - chown
- - chgrp
+ - chown [user_name/user_name:group_name (both)]
+ - chgrp [group_name]
 
 
 __su / su (your username)__ 
