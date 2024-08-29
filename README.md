@@ -31,6 +31,7 @@ __rmdir [-p parent_directory/child_directory, -pv ***]__
 __rm [-r, -rv]__
 
 __user permissions__
+![](./resource/IMG_2954.jpeg)
 
 __su / su (your username)__ 
 
