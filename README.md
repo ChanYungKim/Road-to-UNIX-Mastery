@@ -30,8 +30,13 @@ __rmdir [-p parent_directory/child_directory, -pv ***]__
 
 __rm [-r, -rv]__
 
-__user permissions__
+## user permissions
 ![](./resource/IMG_2954.jpeg)
+ - chmod [g, u, o, a, +, =, -, r/w/x]
+    - chmod [g, u, o, a][+/=/-][r/w/x] [file_name/directory_name]
+ - chown
+ - chgrp
+
 
 __su / su (your username)__ 
 
