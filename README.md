@@ -20,11 +20,15 @@ __sort__
 
 __|, pipe__
 
-__cp__
+__cp [-i, -n, -u, -R, -v]__
 
-__mv__
+__mv [-i, -u, -v]__
 
-__mkdir__
+__mkdir {folder1, folder2, ...} [-p folder1/folder2/...]__ ***
+
+__rm [-r, -rp]__
+
+__rmdir [-p parent_directory/child_directory, -pv ***]__
 
 __user permissions__
 
