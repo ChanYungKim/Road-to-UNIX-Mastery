@@ -37,8 +37,12 @@ __rm [-r, -rv]__
  - chown [user_name/user_name __:__ group_name (both)]
  - chgrp [group_name]
 
- ## installation from Linux repos
- - `sudo yum install package-name` : REHL based
+ ## installation from linux repos
+ 
+ - ```
+ sudo yum update
+ sudo yum install package-name
+ ``` : REHL based
 
  - `sudo apt-get install package-name` : Debian based
 
