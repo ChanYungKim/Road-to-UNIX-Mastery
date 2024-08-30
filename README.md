@@ -56,6 +56,18 @@ __gzip, gunzip, tar [-cvf, -xvf]__
 
 `source .bashrc` : sync withe the new env variables
 
+## regular expressions
+- . : replaces any character
+- ^ : matches the start of string
+- $ : matches the end of the string
+- * : matches the preceding character zero or more times
+- ? : matches the preceding character one or more times
+- () : groups regular expressions
+- \ : represents special characters
+
+- examples
+![](./resource/IMG_2957.jpeg)
+
 __su / su (your username)__ 
 
 __sudo__
