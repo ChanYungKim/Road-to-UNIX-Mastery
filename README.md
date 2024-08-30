@@ -37,7 +37,14 @@ __rm [-r, -rv]__
  - chown [user_name/user_name __:__ group_name (both)]
  - chgrp [group_name]
 
+ ## installation from Linux repos
+ - `sudo yum install package-name` : REHL based
 
+ - `sudo apt-get install package-name` : Debian based
+
+ - `sudo dnf install package-name` : Fedora based
+
+ 
 __su / su (your username)__ 
 
 __sudo__
