@@ -6,7 +6,7 @@ __pwd__
 
 __clear__
 
-__ls__
+__ls [-l]__
 
 __cd__
 
@@ -30,6 +30,8 @@ __rmdir [-p parent_directory/child_directory, -pv ***]__
 
 __rm [-r, -rv]__
 
+__gzip, gunzip, tar [-cvf, -xvf]__
+
 ## user permissions
 ![](./resource/IMG_2954.jpeg)
  - chmod [g, u, o, a, +, =, -, r/w/x]
@@ -37,18 +39,26 @@ __rm [-r, -rv]__
  - chown [user_name/user_name __:__ group_name (both)]
  - chgrp [group_name]
 
- ## installation from linux repos
- 
-`
-sudo yum update
-sudo yum install package-name
-` : REHL based
+## installation from linux repos, __sudo__ command
+- REHL based
+    - `sudo yum update` : get and install any new versions of already installed package
+    - `sudo yum install package-name`
 
- - `sudo apt-get install package-name` : Debian based
+- Debian based
+    - `sudo apt-get update` : get and install any new versions of already installed package
+    - `sudo apt-get install package-name`
 
- - `sudo dnf install package-name` : Fedora based
+- Fedora based
+    - `sudo dnf update` : get and install any new versions of already installed package
+    - `sudo dnf install package-name`
 
- 
+`sudo gedit .bashrc` : update environment variables in _.bashrc_
+
+`source .bashrc` : sync withe the new env variables
+
 __su / su (your username)__ 
 
 __sudo__
+
+## references
+[edureka!](https://www.youtube.com/live/bz0ZCUv5rYo?si=OEmxnlY2BrKTUh1r)
