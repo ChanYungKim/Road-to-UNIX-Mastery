@@ -60,7 +60,7 @@ __gzip, gunzip, tar [-cvf, -xvf]__
 - . : replaces any character
 - ^ : matches the start of string
 - $ : matches the end of the string
-- * : matches the preceding character zero or more times
+- \* : matches the preceding character zero or more times
 - ? : matches the preceding character one or more times
 - () : groups regular expressions
 - \ : represents special characters
