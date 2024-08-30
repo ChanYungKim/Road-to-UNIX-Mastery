@@ -39,10 +39,10 @@ __rm [-r, -rv]__
 
  ## installation from linux repos
  
- - ```
- sudo yum update
- sudo yum install package-name
- ``` : REHL based
+`
+sudo yum update
+sudo yum install package-name
+` : REHL based
 
  - `sudo apt-get install package-name` : Debian based
 
